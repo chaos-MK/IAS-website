@@ -1,0 +1,91 @@
+[
+  {
+      "name": "Mrs Ilhem Kallel",
+      "role": "Advisor",
+      "email": "ilhem.kallel@ieee.org",
+      "image": "images/con.png",
+      "social": {
+        "instagram": "https://www.instagram.com/ilhem_kallel/",
+        "linkedin": "https://www.linkedin.com/in/ilhem-kallel-78699b36/?originalSubdomain=tn",
+        "facebook": "https://www.facebook.com/ikallel"
+      }
+    },
+    {
+      "name": "Aziz Alimi",
+      "role": "Chair",
+      "email": "aziz.alimi@ieee.org",
+      "image": "images/ch.jpg",
+      "social": {
+        "instagram": "https://www.instagram.com/azizalimi_/",
+        "linkedin": "https://www.linkedin.com/in/aziz-alimi-3717a333a/",
+        "facebook": "https://www.facebook.com/aziz.alimi.3"
+      }
+    },
+    {
+      "name": "Fedi Triki",
+      "role": "Vice Chair",
+      "email": "fedi.triki@ieee.org",
+      "image": "images/vch.jpg",
+      "social": {
+        "instagram": "https://www.instagram.com/trikifedi7/",
+        "linkedin": "https://www.linkedin.com/in/fedi-triki/",
+        "facebook": "https://www.facebook.com/fedi.triki.121"
+      }
+    },
+    {
+      "name": "Rahma Trabelsi",
+      "role": "Project Manager",
+      "email": "rahma.trabelsi@ieee.org",
+      "image": "images/pm.jpeg",
+      "social": {
+        "instagram": "https://www.instagram.com/trabelsi_rahma_10/",
+        "linkedin": "https://www.linkedin.com/in/rahma-trabelsi-250147361",
+        "facebook": "https://www.facebook.com/rahma.trabelsi.843151"
+      }
+    },
+    {
+      "name": "Abdelkader Barkia",
+      "role": "Treasurer",
+      "email": "abdelkader.barkia@ieee.org",
+      "image": "images/tre.jpeg",
+      "social": {
+        "instagram": "https://www.instagram.com/abdelkader_barkia/",
+        "linkedin": "https://www.linkedin.com/in/abdelkader-barkia-0312b3357/",
+        "facebook": "https://www.facebook.com/abdelkader.barkia.2025"
+      }
+    },
+    {
+      "name": "Nour Allouch",
+      "role": "Secretary",
+      "email": "nour.allouch@ieee.org",
+      "image": "images/sec.jpg",
+      "social": {
+        "instagram": "https://www.instagram.com/n.allouch/",
+        "linkedin": "https://www.linkedin.com/in/nour-allouch-0014212b7/",
+        "facebook": "https://www.facebook.com/nour.allouch.33"
+      }
+    },
+    {
+      "name": "Rieb Othman",
+      "role": "Media Manager",
+      "email": "rieb.othman@ieee.org",
+      "image": "images/med.jpg",
+      "social": {
+        "instagram": "https://www.instagram.com/riebothman/",
+        "linkedin": "https://www.linkedin.com/in/rieb-othman-45a232284/",
+        "facebook": "https://www.facebook.com/rieb.tn.12"
+      }
+    },
+    {
+      "name": "Mohamed Khalil",
+      "role": "Web Master",
+      "email": "mohamed.khalil@ieee.org",
+      "image": "images/web.jpg",
+      "social": {
+        "instagram": "https://www.instagram.com/eternal_legend5/",
+        "linkedin": "https://www.linkedin.com/in/mohamed-khalil-93aa92226/",
+        "facebook": "https://www.facebook.com/mohamed.khlil.370515/"
+      }
+    }
+  ]
+  
