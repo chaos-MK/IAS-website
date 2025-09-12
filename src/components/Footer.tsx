@@ -103,16 +103,16 @@ const Footer: React.FC = () => {
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="bg-green-50 p-6 rounded-lg border-l-4 border-green-500">
+                  <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
                     <div className="flex items-center space-x-4">
-                      <div className="bg-green-100 p-2 rounded-full">
-                        <svg className="w-5 h-5 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-blue-100 p-2 rounded-full">
+                        <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                         </svg>
                       </div>
                       <div>
-                        <p className="text-sm text-green-700 font-medium">Phone</p>
-                        <p className="text-lg text-green-800 font-semibold">+216 00 000 000</p>
+                        <p className="text-sm text-blue-700 font-medium">Phone</p>
+                        <p className="text-lg text-blue-800 font-semibold">+216 53 744 705</p>
                       </div>
                     </div>
                   </div>
@@ -131,16 +131,16 @@ const Footer: React.FC = () => {
                     </div>
                   </div>
                   
-                  <div className="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-500">
+                  <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
                     <div className="flex items-center space-x-4">
-                      <div className="bg-purple-100 p-2 rounded-full">
-                        <svg className="w-5 h-5 text-purple-600" fill="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-blue-100 p-2 rounded-full">
+                        <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                         </svg>
                       </div>
                       <div>
-                        <p className="text-sm text-purple-700 font-medium">Office Hours</p>
-                        <p className="text-lg text-purple-800 font-semibold">Everyday: 8:00 - 17:00</p>
+                        <p className="text-sm text-blue-700 font-medium">Office Hours</p>
+                        <p className="text-lg text-blue-800 font-semibold">Everyday: 8:00 - 17:00</p>
                       </div>
                     </div>
                   </div>
