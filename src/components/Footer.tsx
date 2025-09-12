@@ -56,8 +56,8 @@ const Footer: React.FC = () => {
               {/* Location Section */}
               <div className="space-y-6">
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="bg-red-100 p-3 rounded-full">
-                    <svg className="w-6 h-6 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+                  <div className="bg-grey-100 p-3 rounded-full">
+                    <svg className="w-6 h-6 text-grey-600" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                     </svg>
                   </div>
@@ -67,11 +67,6 @@ const Footer: React.FC = () => {
                   </div>
                 </div>
                 
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <p className="text-gray-800 font-semibold text-lg">ISIMS</p>
-                  <p className="text-gray-600">Higher Institute of Computer Science and Multimedia of Sfax</p>
-                  <p className="text-gray-600">ICT Technopark Sfax, Ons City</p>
-                </div>
                 
                 {/* Mini Google Map */}
                 <div className="w-full h-64 rounded-xl overflow-hidden shadow-lg border border-gray-200">
@@ -89,10 +84,10 @@ const Footer: React.FC = () => {
               </div>
               
               {/* Contact Info Section */}
-              <div className="space-y-6">
+              <div className="space-y-6 mt-1">
                 <div className="flex items-center space-x-3 mb-6">
-                  <div className="bg-blue-100 p-3 rounded-full">
-                    <svg className="w-6 h-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                  <div className="bg-grey-100 p-3 rounded-full">
+                    <svg className="w-6 h-6 text-grey-600" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                     </svg>
                   </div>
@@ -103,47 +98,35 @@ const Footer: React.FC = () => {
                 </div>
                 
                 <div className="space-y-4">
-                  <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
+                  <div className="bg-grey-50 p-6 rounded-lg border-l-4 border-grey-500">
                     <div className="flex items-center space-x-4">
-                      <div className="bg-blue-100 p-2 rounded-full">
-                        <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-grey-100 p-2 rounded-full">
+                        <svg className="w-5 h-5 text-grey-600" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
                         </svg>
                       </div>
                       <div>
-                        <p className="text-sm text-blue-700 font-medium">Phone</p>
-                        <p className="text-lg text-blue-800 font-semibold">+216 53 744 705</p>
+                        <p className="text-sm text-grey-700 font-medium">Phone</p>
+                        <p className="text-lg text-grey-800 font-semibold">+216 53 744 705</p>
                       </div>
                     </div>
                   </div>
                   
-                  <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
+                  <div className="bg-grey-50 p-6 rounded-lg border-l-4 border-grey-500">
                     <div className="flex items-center space-x-4">
-                      <div className="bg-blue-100 p-2 rounded-full">
-                        <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-grey-100 p-2 rounded-full">
+                        <svg className="w-5 h-5 text-grey-600" fill="currentColor" viewBox="0 0 24 24">
                           <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
                         </svg>
                       </div>
                       <div>
-                        <p className="text-sm text-blue-700 font-medium">Email</p>
-                        <p className="text-lg text-blue-800 font-semibold">ieee.ias.isims@ieee.org</p>
+                        <p className="text-sm text-grey-700 font-medium">Email</p>
+                        <p className="text-lg text-grey-800 font-semibold">ieee.ias.isims@ieee.org</p>
                       </div>
                     </div>
                   </div>
                   
-                  <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
-                    <div className="flex items-center space-x-4">
-                      <div className="bg-blue-100 p-2 rounded-full">
-                        <svg className="w-5 h-5 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
-                          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-sm text-blue-700 font-medium">Office Hours</p>
-                        <p className="text-lg text-blue-800 font-semibold">Everyday: 8:00 - 17:00</p>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
               
@@ -152,20 +135,21 @@ const Footer: React.FC = () => {
           </div>
           
           {/* Bottom Section */}
-                   <div className="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-6 w-full">
-                     <img src="/images/iasB.png" alt="Logo" className="h-30 w-40" />
-                     <nav className="flex flex-wrap justify-center space-x-4 md:space-x-6">
-                       <Link to="/" className="hover:text-green-500">Home</Link>
-                       <Link to="/events" className="hover:text-green-500">Events</Link>
-                       <Link to="/media" className="hover:text-green-500">Media</Link>
-                       <Link to="/about" className="hover:text-green-500">About us</Link>
-                     </nav>
-                     <p className="text-center md:text-right mt-3 text-xs">© Copyright <b>IEEE IAS SIMS SBC</b>. All Rights Reserved.</p>
-                   
-              
-           {/* </div> */}
+          <div className="container mx-auto px-6 pb-8">
+            <div className="flex flex-col items-center space-y-6">
+              <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+                <img src="/images/iasB.png" alt="Logo" className="h-30 w-40" />
+                <nav className="flex flex-wrap justify-center space-x-4 md:space-x-6">
+                  <Link to="/" className="hover:text-green-500">Home</Link>
+                  <Link to="/events" className="hover:text-green-500">Events</Link>
+                  <Link to="/media" className="hover:text-green-500">Media</Link>
+                  <Link to="/about" className="hover:text-green-500">About us</Link>
+                </nav>
+              </div>
+              <p className="text-center text-xs">© Copyright <b>IEEE IAS SIMS SBC</b>. All Rights Reserved.</p>
+            </div>
+          </div>
           
-        </div>
       </footer>
     );
   };
