@@ -184,13 +184,13 @@ const AboutUsPage = () => {
       </section>
 
       {/* Officers Section */}
-      <section id="team-section" className="py-20" style={{ backgroundColor: "#26353A" }}>
-      <div className="px-4 md:px-8 lg:px-16 xl:px-24 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <section id="team-section" className="py-20" style={{ backgroundColor: "#26353A" }}>
+          <div className="px-4 md:px-8 lg:px-16 xl:px-24 py-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               {officers.map((officer, index) => (
                 <div
                   key={officer.email}
-                  className={`bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-700 ${
+                  className={`bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-700 flex flex-col ${
                     isTeamVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
                   }`}
                   style={{ transitionDelay: `${index * 100}ms` }}
@@ -211,7 +211,7 @@ const AboutUsPage = () => {
                       }`}
                     >
                       <div className="text-white text-center px-4">
-                        <p className="mb-2">{officer.email}</p>
+                        <p className="mb-2 text-sm">{officer.email}</p>
                         <div className="flex justify-center space-x-4">
                           {(Object.keys(officer.social) as Array<keyof typeof officer.social>).map((platform) => {
                             const iconSrc = {
@@ -228,7 +228,7 @@ const AboutUsPage = () => {
                                 rel="noopener noreferrer"
                                 className="bg-white bg-opacity-20 p-2 rounded-full transition-all duration-300 hover:bg-opacity-40"
                               >
-                                <img src={iconSrc} /*alt={platform}*/ className="w-5 h-5" />
+                                <img src={iconSrc} className="w-5 h-5" />
                               </a>
                             );
                           })}
@@ -237,17 +237,22 @@ const AboutUsPage = () => {
                     </div>
                   </div>
                   <div
-                    className="p-6 transition-all duration-300"
+                    className="p-6 transition-all duration-300 flex-1 flex flex-col justify-between"
                     style={{
                       backgroundColor: hoveredCard === officer.email ? '#8de0b5' : '#A6EBC7',
                     }}
                   >
-                    <h3 className="text-xl font-bold mb-1 transition-all duration-300">
-                      {officer.name}
-                    </h3>
-                    <p className="text-lg font-semibold" style={{ color: '#26353A' }}>
-                      {officer.role}
-                    </p>
+                    <div className="flex-1">
+                      <h3 className="text-xl font-bold mb-1 transition-all duration-300">
+                        {officer.name}
+                      </h3>
+                      <p 
+                        className="text-lg font-semibold leading-tight min-h-[3.5rem] flex items-start" 
+                        style={{ color: '#26353A' }}
+                      >
+                        {officer.role}
+                      </p>
+                    </div>
                     <div className="mt-4 flex space-x-3">
                       {(Object.keys(officer.social) as Array<keyof typeof officer.social>).map((platform) => {
                         const iconSrc = {
@@ -264,7 +269,7 @@ const AboutUsPage = () => {
                             rel="noopener noreferrer"
                             className="text-gray-600 hover:text-black transition-transform duration-300 hover:scale-110"
                           >
-                            <img src={iconSrc} /*alt={platform}*/ className="w-5 h-5" />
+                            <img src={iconSrc} className="w-5 h-5" />
                           </a>
                         );
                       })}
@@ -273,8 +278,8 @@ const AboutUsPage = () => {
                 </div>
               ))}
             </div>
-            </div>
-      </section>
+          </div>
+        </section>
       
       {/* Mission & Vision Section */}
       <section className="py-20 bg-white">
