@@ -21,7 +21,7 @@ import ModelViewer from './components/ModelViewer';
 // IEEE Banner Component
 const IEEEBanner = () => {
   return (
-    <div className="fixed top-0 left-0 w-full z-[1002] bg-gradient-to-r from-green-900 to-black text-white py-2 text-sm shadow-lg">
+    <div className="fixed top-0 left-0 w-full z-[1002] bg-green-900 text-white py-2 text-sm shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-left justify-left gap-6 py-2 text-left sm:text-base">
           <div className="flex items-left gap-4 flex-wrap justify-left">

@@ -40,17 +40,17 @@ const AboutUs = () => {
           <img 
             src="/images/ias2.png" 
             alt="About Us Logo" 
-            className="w-80 md:w-96 mx-auto md:mx-40 transition-transform duration-500 hover:scale-105"
+            className="w-140 md:w-146 mx-auto md:mx-40 transition-transform duration-500 hover:scale-105"
           />
         </div>
         
         <div  onClick={handleClick}  className={`md:w-3/5 max-w-xl transition-all duration-1000 delay-300 transform ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-10 opacity-0'}`}>
-          <h2 className="text-4xl font-bold mb-6 md:text-left text-center">
+          <h2 className="text-6xl font-bold mb-6 md:text-left text-center">
             About us
             <div className="h-1 w-20 bg-green-600 mt-2 mx-auto md:mx-0"></div>
           </h2>
           
-          <p className="text-lg leading-relaxed mb-6">
+          <p className="text-2xl leading-relaxed mb-6">
             The IEEE ISIMS Student Branch (SB) was founded in 2019, marking the start of our local student activities.
             In 2024, the IAS ISIMS Student Branch Chapter (SBC) was established,
             expanding our branch with the Industry Applications Society community.
