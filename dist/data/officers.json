@@ -1,16 +1,5 @@
   [
     {
-      "name": "Mrs Ilhem Kallel",
-      "role": "IAS Advisor & Chair SMC Tunisia section",
-      "email": "ilhem.kallel@ieee.org",
-      "image": "images/con.png",
-      "social": {
-        "instagram": "https://www.instagram.com/ilhem_kallel/",
-        "linkedin": "https://www.linkedin.com/in/ilhem-kallel-78699b36/?originalSubdomain=tn",
-        "facebook": "https://www.facebook.com/ikallel"
-      }
-    },
-    {
       "name": "Aziz Alimi",
       "role": "Chair",
       "email": "aziz.alimi@ieee.org",
@@ -85,6 +74,17 @@
         "instagram": "https://www.instagram.com/eternal_legend5/",
         "linkedin": "https://www.linkedin.com/in/mohamed-khalil-93aa92226/",
         "facebook": "https://www.facebook.com/mohamed.khlil.370515/"
+      }
+    },
+    {
+      "name": "Ilhem Kallel",
+      "role": "IAS Advisor",
+      "email": "ilhem.kallel@ieee.org",
+      "image": "images/con.png",
+      "social": {
+        "instagram": "https://www.instagram.com/ilhem_kallel/",
+        "linkedin": "https://www.linkedin.com/in/ilhem-kallel-78699b36/?originalSubdomain=tn",
+        "facebook": "https://www.facebook.com/ikallel"
       }
     }
   ]

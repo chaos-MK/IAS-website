@@ -60,7 +60,7 @@
     },
     {
       "title": "IOT session #1",
-      "date": "2025 April 9, 09:00 PM",
+      "date": "2025 April 9th, 09:00 PM",
       "location": "Google meet",
       "description": "⚙️Step into the world of smart tech with our IoT workshop: set up your ESP32, connect sensors, and get ready to start building in future sessions!",
       "image": "images/EngineerX21.png",
@@ -70,7 +70,7 @@
     },
     {
       "title": "Leadership & Business Planning",
-      "date": "2025 April 9, 2:00 PM",
+      "date": "2025 April 9th, 2:00 PM",
       "location": "Youth House, Sekkiet Ezzit",
       "description": "Discover the mindset shift, leadership skills, and strategic planning tools you need to build a sustainable business in today’s fast changing world.",
       "image": "images/EngineerX1.png",
@@ -79,14 +79,24 @@
       "linkedin": "https://www.linkedin.com/posts/ieee-ias-isims-sbc_ieeengineerx-entrepreneurshipabrandabrleadershipabrbootcamp-activity-7315124801650548736-DgEj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADjBw74BZSH7x9UT-vSP4sfry4piyIFBdXc"
     },
     {
+      "title": "Design Contest (Africa)",
+      "date": "2025 March 6th, 9:00 PM",
+      "location": "Google Meet",
+      "description": " Diving into the IEEE IAS-IPCSD Engineering Student Chapter Design Contest (Africa)!",
+      "image": "images/dc.png",
+      "facebook": "https://www.facebook.com/share/p/15wShr9jyb/",
+      "instagram": "https://www.instagram.com/p/DGy2V2NMBu3/",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
+    {
       "title": "Understanding IAS",
-      "date": "2025 February 17, 9:00 PM",
+      "date": "2025 February 17th, 9:00 PM",
       "location": "Google Meet",
       "description": "Join us for an exclusive online session with Achref Selmi, IEEE IAS Tunisia section chair! Discover the purpose, fields, and opportunities within IAS and how it can shape your future in industry & IT!",
       "image": "images/infos.jpg",
-      "facebook": "https://www.facebook.com/share/p/1AZccCEoyP/",
-      "instagram": "https://www.instagram.com/p/DIKRK6QMv4Y/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-      "linkedin": "https://www.linkedin.com/posts/ieee-ias-isims-sbc_ieeengineerx-entrepreneurshipabrandabrleadershipabrbootcamp-activity-7315124801650548736-DgEj?utm_source=share&utm_medium=member_desktop&rcm=ACoAADjBw74BZSH7x9UT-vSP4sfry4piyIFBdXc"
+      "facebook": "https://www.facebook.com/share/p/19rLeGwwGn/",
+      "instagram": "https://www.instagram.com/p/DGGK8U4I8XE/",
+      "linkedin": "https://www.linkedin.com/posts/ieee-ias-isims-sbc_ieeeabrisimsabrsb-ieeeabrisimsabriasabrsbc-activity-7296533064866791424-mNiu"
     }
   ]
   
