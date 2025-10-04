@@ -4,6 +4,7 @@ interface Officer {
   name: string;
   role: string;
   email: string;
+  Admail: string;
   image: string;
   social: {
     instagram: string;
@@ -189,12 +190,12 @@ const AboutUsPage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
               {officers.map((officer, index) => (
                 <div
-                  key={officer.email}
+                  key={officer.email || officer.Admail}
                   className={`bg-white rounded-lg overflow-hidden shadow-lg transition-all duration-700 flex flex-col ${
                     isTeamVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-20'
                   }`}
                   style={{ transitionDelay: `${index * 100}ms` }}
-                  onMouseEnter={() => setHoveredCard(officer.email)}
+                  onMouseEnter={() => setHoveredCard(officer.email || officer.Admail)}
                   onMouseLeave={() => setHoveredCard(null)}
                 >
                   <div className="h-64 overflow-hidden relative">
@@ -202,16 +203,16 @@ const AboutUsPage = () => {
                       src={officer.image}
                       alt={officer.name}
                       className={`w-full h-full object-cover transition-all duration-500 ${
-                        hoveredCard === officer.email ? 'scale-110' : 'scale-100'
+                        hoveredCard === (officer.email || officer.Admail) ? 'scale-110' : 'scale-100'
                       }`}
                     />
                     <div
                       className={`absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center transition-opacity duration-300 ${
-                        hoveredCard === officer.email ? 'opacity-100' : 'opacity-0'
+                        hoveredCard === (officer.email || officer.Admail) ? 'opacity-100' : 'opacity-0'
                       }`}
                     >
                       <div className="text-white text-center px-4">
-                        <p className="mb-2 text-sm">{officer.email}</p>
+                        <p className="mb-2 text-sm">{officer.email || officer.Admail}</p>
                         <div className="flex justify-center space-x-4">
                           {(Object.keys(officer.social) as Array<keyof typeof officer.social>).map((platform) => {
                             const iconSrc = {
@@ -239,7 +240,7 @@ const AboutUsPage = () => {
                   <div
                     className="p-6 transition-all duration-300 flex-1 flex flex-col justify-between"
                     style={{
-                      backgroundColor: hoveredCard === officer.email ? '#8de0b5' : '#A6EBC7',
+                      backgroundColor: hoveredCard === (officer.email || officer.Admail) ? '#8de0b5' : '#A6EBC7',
                     }}
                   >
                     <div className="flex-1">

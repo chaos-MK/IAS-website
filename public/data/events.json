@@ -1,4 +1,84 @@
 [
+        {
+      "title": "The IAS journey starts here!",
+      "date": "2025 October 1st, 3:00 PM",
+      "location": "ISIMS",
+      "description": "This October 1st, we’re kicking off with inspiring keynotes that bring innovation, leadership, and opportunities to the spotlight. Get ready to discover what the Industry Applications Society (IAS) is all about, and how you can be part of a global community shaping the future of technology.",
+      "image": "images/key.png",
+      "facebook": "https://www.facebook.com/share/p/19mbYypxLM/",
+      "instagram": "https://www.instagram.com/p/DPMrRSkjOEO/",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
+    {
+      "title": "AIoT Forum | Industrial Visit",
+      "date": "2025 October 1st",
+      "location": "SNA Nutrition Animale",
+      "description": "🌟 AIoT Forum | Industrial Visit 🌟 Have you ever joined an industrial visit before? 🚀 Now’s your chance!",
+      "image": "images/visit.png",
+      "facebook": "https://www.facebook.com/profile.php?id=61572324778458",
+      "instagram": "https://www.instagram.com/p/DPPniG6DK9T/",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
+    {
+      "title": "Final Session of the AIoT Forum",
+      "date": "2025 October 1st, 10:00 PM",
+      "location": "Google Meet",
+      "description": "Final Session of the AIoT Forum! How to Make a Business Plan with Ms. Tasnim Chiboub💡",
+      "image": "images/aiot5.png",
+      "facebook": "https://www.facebook.com/profile.php?id=61572324778458",
+      "instagram": "https://www.instagram.com/p/DPE40t6DHcu/?img_index=1",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
+    {
+      "title": "Our booth",
+      "date": "2025 September 26th",
+      "location": "ISIMS",
+      "description": "We had an amazing time today meeting new faces, sharing our mission, and connecting with students who are passionate about technology, innovation, and industry applications.",
+      "image": "images/booth.png",
+      "facebook": "https://www.facebook.com/share/p/1FyNaUcHJ5/",
+      "instagram": "https://www.instagram.com/p/DPE40t6DHcu/?img_index=1",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
+    {
+      "title": "Fourth session of the AIoT Forum",
+      "date": "2025 September 23th, 08:00 PM",
+      "location": "Google Meet",
+      "description": "Fourth session of the AIoT Forum: Data to Decision Dashboarding with Mr. Wael Bazzouzi",
+      "image": "images/aiot4.png",
+      "facebook": "https://www.facebook.com/profile.php?id=61572324778458",
+      "instagram": "https://www.instagram.com/p/DO4UJGnjF94/",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
+    {
+      "title": "Third session of the AIoT Forum",
+      "date": "2025 September 21th, 08:00 PM",
+      "location": "Google Meet",
+      "description": "hird session of the AIoT Forum: IoT and Artificial Intelligence with Mrs. Ameni Selmi",
+      "image": "images/aiot3.png",
+      "facebook": "https://www.facebook.com/profile.php?id=61572324778458",
+      "instagram": "https://www.instagram.com/p/DOzX5MDjJ58/",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
+    {
+      "title": "Second session of the AIoT Forum",
+      "date": "2025 September 19th, 08:00 PM",
+      "location": "Google Meet",
+      "description": "Second session of the AIoT Forum: Foundations of artificial intelligence with Mrs. Eya Maazoun",
+      "image": "images/aiot2.png",
+      "facebook": "https://www.facebook.com/profile.php?id=61572324778458",
+      "instagram": "https://www.instagram.com/p/DOuD0KdjMmk/",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
+    {
+      "title": "First session of the AIoT Forum",
+      "date": "2025 September 17th, 08:00 PM",
+      "location": "Google Meet",
+      "description": "The journey begins! First session of the AIoT Forum: Getting Started with N8N Automation with Mrs. Eya Chaabene",
+      "image": "images/aiot1.png",
+      "facebook": "https://www.facebook.com/profile.php?id=61572324778458",
+      "instagram": "https://www.instagram.com/p/DOrXj0HjFfA/",
+      "linkedin": "https://www.linkedin.com/company/ieee-ias-isims-sbc/posts/?feedView=all"
+    },
     {
       "title": "Distinguished Lecturer Session",
       "date": "2025 April 30th, 07:00 PM",

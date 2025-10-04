@@ -15,7 +15,7 @@ import ContactUsPage from './pages/ContactUsPage';
 import './index.css';
 import AboutPage from './pages/AboutPage';
 import ScrollToTop from './components/ScrollToTop';
-import ModelViewer from './components/ModelViewer';
+import MonopolyGuyChatbot from './components/MonopolyGuyChatbot';
 
 
 // IEEE Banner Component
@@ -99,7 +99,8 @@ function App() {
       <Header />
       <main>
         <ScrollToTop />
-        <ModelViewer /> {/* Render the ModelViewer here to show it on all pages */}
+        <MonopolyGuyChatbot />
+        {/*<ModelViewer />  Render the ModelViewer here to show it on all pages */}
         <Routes>
           <Route path="/" element={
             <>
